@@ -8,7 +8,13 @@ body {
 
 .container {
   margin: 0 auto;
+  padding: 15px;
 }
+
+.fixed.inset-0.z-50.bg-background.md\:hidden nav.flex.flex-col.items-center.space-y-6.p-6 {
+  background: white;
+}
+
 
 @layer utilities {
   .text-balance {
