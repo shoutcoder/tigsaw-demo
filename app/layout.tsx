@@ -22,6 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script src="https://tigsaw.com/api/delivery/9VA0UN21/common"></script>
+      </head>
       <body className={inter.className}>
         <CartProvider>
           <div className="flex flex-col min-h-screen">
